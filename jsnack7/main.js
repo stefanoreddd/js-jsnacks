@@ -4,7 +4,8 @@ peppino = parseInt(peppino);
 for (let i=2; i<=peppino; i=i+2){
         if (peppino <= 1000){
             console.log(i);
-        } else{
+        } 
+        else {
         console.log("Il numero deve essere inferiore a 1000!");
     }
 }
