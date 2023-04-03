@@ -33,7 +33,7 @@ Ottavo numero: ${number8};
 Nono numero: ${number9};
 Decimo numero:${number10};
 
-Somma numeri: ${number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10}
+Somma numeri: ${number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10};
 --------------------------
 `
 

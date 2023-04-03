@@ -1,6 +1,8 @@
 let gatsbyInvited = ["Gatsby", "Mario", "Marco", "Marcello", "John", "Mary", "Anthony", "Giulio"];
-let invitedCheck = prompt("Inserisci il nome dell'invitato");
+let invitedCheck = prompt("Inserisci il tuo nome:");
 
-for (let i=0, i<gatsbyInvited.length, i++) {
+if (gatsbyInvited.includes(invitedCheck)){
     console.log("Congratulazioni, sei invitato alla festa!");
-    if ()
+} else {
+    console.log("Spiacente, non sei invitato alla festa!");
+}
